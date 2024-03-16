@@ -1,8 +1,17 @@
-# js-lab-30
-### Lab30 Conditiona: Fundamental6
-- จงเขียนโค้ดเพื่อรับ input
-- ถ้า input = 1 ให้ alert “One”
-- ถ้า input = 0 ให้ alert “Zero”
-- ถ้า input = -1 ให้ alert “Minus”
-- ถ้าไม่ใช่ค่าที่กล่าวมาให้ alert “Invalid number”
-- ให้เขียนโดยใช้ switch case
+# js-lab-31
+### Lab31 Conditiona: Refractor1
+แปลง code ให้อยู่ในรูปแบบ switch case
+
+```JavaScript
+let a = +prompt('a?');
+
+if (a == 0) {
+  alert(0);
+}
+if (a == 1) {
+  alert(1);
+}
+if (a == 2 || a == 3) {
+  alert('2,3');
+}
+```
